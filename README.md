@@ -1,7 +1,7 @@
 # Raid-Helper JSON Sorter
 
 ### Pre-setup:
-Disable the Bench, Tentative and Absent buttons from your raid sheet:
+Disable the Bench, Tentative and Absent buttons from your raid sheet:<br>
 ![Disable](./disable.png)
 
 ### Instructions to use:
