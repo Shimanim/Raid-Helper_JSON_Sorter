@@ -17,10 +17,11 @@ try:
 
     # loop through signups, print name & pos then write to a .csv file
     for signup in data['signUps']:
-        print("Name: " + signup['name'] + " | Position: " + str(signup['position']) + " | Role: " + signup['className'])
-        writer.writerow([signup['name'], signup['position'], signup['className']])
+        print("Name: " + signup['name'] + " | Position: " + str(signup['position']) + " | Class: " + signup['className'] + " | Role: " + signup['roleName'])
+        writer.writerow([signup['name'], signup['position'], signup['className'], signup['roleName']])
+    print('')
     print('Make sure you deleted \'output.csv\' before running this file')
-    print('Names, Signup Positions and Roles added to output.csv. Have a good day and have it for the Horde.')
+    print('Names, Signup Positions,Classes and roles have been added to output.csv. Have a good day and have it for the Horde.')
 finally:
     file.close()
     f.close()
