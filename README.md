@@ -1,8 +1,10 @@
 # Raid-Helper JSON Sorter
-Pre-setup:
+
+### Pre-setup:
 Disable the Bench, Tentative and Absent buttons from your raid sheet:
-(./disable.png)
-Instructions to use:
+![Disable](./disable.png)
+
+### Instructions to use:
 1. Click the 'Web View' button at the bottom of the signup sheet on Discord
 2. Right-click the 'JSON' button at the top right of the page and 'Save link as...'
 3. Save the file under the name 'data.json', make sure it's in the same spot as 'RaidJsonSorter.py'
